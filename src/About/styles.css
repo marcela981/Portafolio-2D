@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@media (max-width: 600px) {
+    .modal {
+        flex-direction: column;
+    }
+
+    .profile-image {
+        display: none; /* Oculta la imagen en pantallas más grandes que 600px */
+    }
+
+    .left-content {
+        order: 1;
+    }
+}
+
+
+
+body {
+    background-color: #17151E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.modal {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    border-radius: 8px;
+    
+}
+
+.left-content {
+    flex: 1;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.link-container {
+    align-self: center; /* Centra el contenedor del enlace en la dirección horizontal */
+    width: 100%; /* Utiliza todo el ancho disponible para centrar correctamente */
+}
+
+.right-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+
+.left-content h1 {
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    position: relative;
+    font-family: 'Krona One', sans-serif;
+}
+
+.left-content h1::after {
+    content: '';
+    display: block;
+    width: 200%;
+    height: 1px;
+    background: #fff;
+    margin-top: 10px ;
+    position: absolute;
+    left: -20%;
+}
+
+.left-content p {
+    font-size: 22px;
+    margin: 10px 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-style: bold;
+    line-height: 2;
+
+    
+}
+
+.profile-image {
+    width: 90%; 
+    height: auto;
+    transform: translateY(-65%) translateX(1.4%);
+    border-radius: 5%; 
+    position: absolute;
+    right: -22%; 
+    top: 0;
+
+}
+
+.curriculum-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+.curriculum-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center; /* Asegura que el texto del enlace esté centrado */
+}
+
+.curriculum-link .arrow {
+    font-size: 24px;
+    color: blueviolet;
+}
+
+.curriculum-link:hover {
+    text-decoration: none;
+}
+
+

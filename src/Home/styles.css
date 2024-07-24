@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #17151E;
+}
+
+header {
+    
+    padding: 0px;
+    text-align: left;
+    color: white;
+    margin-left: -200px;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Jua', sans-serif;
+    font-size: 50px;
+}
+
+header h2 {
+    margin: 0;
+    font-family: 'Krona One', sans-serif;
+    font-size: 14px;
+}
+
+
+
+main {
+    padding: 50px;
+    text-align: center;
+    color:white;
+}
+
+main h1 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 50px;
+    line-height: 1.2; /* Ajusta según sea necesario */
+}
+
+main p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 2; 
+}
+
+
+section {
+    margin: 20px 0;
+}
+
+.buttons {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+a {
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    color: white; /* Color de los botones */
+    text-decoration: none; /* Quitar el subrayado */
+    font-family: 'Krona One', sans-serif;
+    font-size: 12px;
+}
+
+a:hover {
+    color: #555555; /* Color al hacer hover */
+    text-decoration: none; /* Asegurarte de que no hay subrayado en hover */
+}
+
+
